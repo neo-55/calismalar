@@ -1,0 +1,33 @@
+package kendiCozduklerim;
+
+import java.util.Scanner;
+
+public class AdSoyadYasKilo {
+
+	public static void main(String[] args) {
+		/*
+    	 * kullanicinin ad soyad yas boy kilosunu  yazdiriniz
+    	 */
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Lutfen adinizi giriniz");
+		String isim=scan.nextLine();
+		
+		
+		System.out.println("Lutfen soyadinizi giriniz");
+		String soyIsim=scan.nextLine();
+		
+		
+		System.out.println("Lutfen yasinizi giriniz");
+		int yas=scan.nextInt();
+		
+		System.out.println("Lutfen boyunuzu giriniz");
+		double kilo=scan.nextDouble();
+		
+		
+		System.out.println("Adiniz : " + isim + "\n"+"Soyadiniz : " + soyIsim +"\n"+"Yasiniz : " + yas +"\n"+"Kilonuz : " + kilo +" kg");
+		
+
+	}
+
+}
