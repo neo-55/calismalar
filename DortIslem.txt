@@ -1,0 +1,28 @@
+package kendiCozduklerim;
+
+public class DortIslem {
+
+	public static void main(String[] args) {
+		/*Verilen integer sayilarin Toplamini, carpimini, cikarma islemini ve bolme islemini yapan java kodunu yaziniz.
+
+		num1=100;   
+		num2=25;  */
+		
+		
+		int sayi1=100;
+		int sayi2=25;
+		
+		int toplam=sayi1 + sayi2;
+		int fark=sayi1 - sayi2;
+		int carpim=sayi1 * sayi2;
+		int bolum =sayi1 / sayi2;
+		
+		System.out.println("Toplama isleminin sonucu : " + toplam + "\n" + "Cikarma isleninin sonucu : " + fark 
+				+ "\n" + "Carpim isleminin sonucu : " + carpim + "\n" + "Bolme isleminin sonucu : " + bolum);		
+		
+		
+		
+		
+	}
+
+}
