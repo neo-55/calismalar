@@ -1,0 +1,33 @@
+package kendiCozduklerim;
+
+import java.util.Scanner;
+
+public class ZamanCevirme {
+
+	public static void main(String[] args) {
+		
+		/*Girilen zamanı saniyeye çeviren bir program yazınız.
+		  Örnek Çıktı: 1 saat 10 dakika 50 saniye ==> 4250 saniye
+		*/
+
+		Scanner scan =new Scanner(System.in);
+				System.out.print("Lutfen bir saat giriniz : ");
+				int saat =scan.nextInt();
+				
+				System.out.print("Lutfen bir dakika giriniz : ");
+				int dakika =scan.nextInt();
+				
+				System.out.print("Lutfen bir saniye giriniz : ");
+				int saniye =scan.nextInt();
+				
+				int zaman = (saat*3600)+(dakika*60);				
+				
+				
+				System.out.print("Girdiginiz zamanin saniye degeri : " + (zaman+saniye));
+	
+				
+			
+
+	}
+
+}
