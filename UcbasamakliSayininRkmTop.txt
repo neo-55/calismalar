@@ -34,7 +34,14 @@ public class UcBasamakliSayiToplami {
 		System.out.println("girilen sayilarin toplami : " + rakamlarToplami);
 		
 		
-				
+		
+		/*Bu sorunun bir diger cozum yoluda girilen sayi basamagi kadar 
+		
+		rakam=sayi%10;
+		rakamlarToplami+=rakam;
+		sayi/=10;
+		
+		satirlarinin tekrarlanmasidir*/		
 		
 		
 		
