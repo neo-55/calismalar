@@ -1,0 +1,32 @@
+package kendiCozduklerim; {
+
+	public static void main(String[] args) {
+		/*Kullanıcıdan dikdörtgenin kenar uzunluklarını alın ve dikdörtgenin alanını ve çevresini konsola yazdıran bir program yazın.
+
+		Örnek Çıktı:
+
+		Alan: 32
+
+		Çevre: 24*/
+		
+		Scanner scan=new Scanner (System.in);
+		System.out.print("Lutfen uzun kenari giriniz :");
+		int uzunK=scan.nextInt();
+		System.out.print("Lutfen kisa kenari giriniz :");
+		int kisaK=scan.nextInt();
+		
+		System.out.println(" ");
+
+		int cevre=2*(uzunK+kisaK);
+		int alan=uzunK*kisaK;
+		
+		System.out.println("Dikdortgenin Cevresi :" + cevre + " cm");
+		
+		
+		System.out.print("Dikdortgenin Alani :" + alan + " cm²");
+		
+
+
+		}
+
+}

@@ -1,0 +1,21 @@
+package kendiCozduklerim;
+
+import java.util.Scanner;
+
+public class BirSayininKupununYarisi {
+
+	public static void main(String[] args) {
+		// Kullanıcıdan bir sayı alın ve sayının küpünün yarısını konsola yazdıran bir program yazın.
+		
+
+	    Scanner scan= new Scanner (System.in);
+	    System.out.print("Lutfen Bir sayi giriniz : ");
+	    
+	    int sayi=scan.nextInt();
+	    double sayininKupu=(sayi*sayi*sayi)/2;
+
+	    System.out.print("Girdiginiz sayinin kupunun yarisi : "+ sayininKupu + " dir");
+
+	}
+
+}
