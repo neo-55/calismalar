@@ -1,0 +1,40 @@
+
+package replitSorulari;
+
+import java.util.Scanner;
+
+public class IsimKartBilgileri {
+
+	public static void main(String[] args) {
+		/*Kullanıcıya Adı, Soyadı ve kredi kartı numaralarını sorarak verilen formata ceviren java kodunu yaziniz.
+
+		Input :		John White		1234567812345678		Output : Name :		J* W**		CCN : ** ** **** 1478	Ilk Harfler Buyuk harf ile baslamalidir.*/
+		
+		Scanner scan=new Scanner (System.in);
+		System.out.print("Lutfen isminizi giriniz : ");
+		String isim=scan.next();
+		
+		System.out.print("Lutfen soyisminizi giriniz : ");
+		String soyisim=scan.next();
+		
+		System.out.println("Lutfen kredi karti numaranizi giriniz : ");
+		String kkNo=scan.next();
+		
+		String isimFormatli=isim.substring(0, 1).toUpperCase()+isim.substring(1).replaceAll("\\w", "*");
+		String soyIsimFormatli=soyisim.substring(0, 1).toUpperCase()+isim.substring(1).replaceAll("\\w", "*");
+		String kkNoFormatli="**** **** **** " + kkNo.substring(12);
+		
+		
+		System.out.println("Isminiz ve Soyisminiz : " + isimFormatli + " " + soyIsimFormatli);
+		
+		System.out.println(" ");
+
+		System.out.println("Kart no : " + kkNoFormatli);
+		
+		
+		
+		
+		
+	}
+
+}
