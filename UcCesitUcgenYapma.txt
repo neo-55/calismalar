@@ -1,0 +1,68 @@
+package replitSorulari;
+
+public class UcCesitUcgenYapma {
+
+	public static void main(String[] args) {
+
+		int i,j;
+		int sembol=1;
+		
+		
+		for ( j=0;  j<=5;  j++) {
+			
+			for (i=0;  i<sembol;  i++) {
+				System.out.print("*");
+		}		
+			
+            System.out.println("");
+            sembol++;
+			
+		}
+		
+        System.out.println();
+        System.out.println("***********************");
+        System.out.println();
+
+
+        int k,l;
+		int krk=10;
+		
+		
+		for ( k=0;  k<=10;  k++) {
+			
+			for (l=0;  l<krk;  l++) {
+				System.out.print("*");
+		}		
+			
+            System.out.println("");
+            krk--;
+			
+		}
+		
+		 System.out.println();
+	     System.out.println("***********************");
+	     System.out.println();
+	
+	     int a,b,c;
+				
+			
+			for ( a=1;  a<10;  a++) {
+				
+				for (b=a;  b<10;  b++) {
+					
+					System.out.print(" ");
+					
+			}		
+				for (c=1;  c<=a;  c++) {
+
+	            System.out.print("*");
+				System.out.print(" ");
+
+	            	}	
+	
+			System.out.println(" ");
+			}	            
+
+
+	}
+}
