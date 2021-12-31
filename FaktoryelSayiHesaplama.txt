@@ -1,0 +1,33 @@
+package replitSorulari;
+
+import java.util.Scanner;
+
+public class FaktoryelSayiHesaplama {
+
+	public static void main(String[] args) {
+	//	Girdi olarak bir tamsayı kabul eden ve faktöriyel hesaplayan programi yazıniz. Input : 6    Output: 6!=65432*1=720
+
+		Scanner scan =new Scanner (System.in);
+		System.out.print("Lutfen bir sayi giriniz : ");
+		int sayi=scan.nextInt();
+		
+		System.out.print("Girdiginiz sayinin faktoryeli " + sayi + "! = ");
+		int faktoryel=1;
+		
+		for (int i=sayi; i>=1; i--) {
+			faktoryel*=i;
+			System.out.print(i + "*");			
+		}
+		
+		System.out.println( "1 : " + faktoryel);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
